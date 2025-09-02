@@ -43,17 +43,17 @@ public class Day7 {
 //            }
 //            System.out.println();
 //        }
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the number of row: ");
-        int n=sc.nextInt();
-        for (int i = 1; i < n; i++) {
-            for (int j = 0; j <n-i ; j++) {
-                System.out.print("  ");
-            }1
-            for (int k = 0; k <2*i-1; k++) {
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("Enter the number of row: ");
+//        int n=sc.nextInt();
+//        for (int i = 1; i < n; i++) {
+//            for (int j = 0; j <n-i ; j++) {
+//                System.out.print("  ");
+//            }1
+//            for (int k = 0; k <2*i-1; k++) {
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
     }
 }
