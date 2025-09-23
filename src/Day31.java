@@ -21,14 +21,19 @@ public class Day31 {
 
 //        System.out.println(5+5/5+2*4-6);
 
-//        int[] arr={4,7,3,8};
+        int[] arr={4,7,3,8};
 //        System.out.println(arr[2]);
-//
-//        try{
-//            System.out.println(arr[9]);
-//        } catch (Exception e) {
-//            System.out.println("Value not Found"+e);
-//        }
+      Scanner sc=new Scanner(System.in);
+      int ind=sc.nextInt();
+        try{
+            if(ind>4){
+                throw new Exception("Error Generated");
+            }
+            System.out.println(arr[2]);
+
+        } catch (Exception e) {
+            System.out.println("Value not Found"+e);
+        }
 
 
 //        try {
@@ -87,10 +92,10 @@ public class Day31 {
 //        System.out.println(addTwo(15,8));
 //        System.out.println(addTwo(15,0));
 
-        try {
-            System.out.println(addTwo(8,0));
-        } catch (ArithmeticException e) {
-            System.out.println("second parameter must not be zero");
-        }
+//        try {
+//            System.out.println(addTwo(8,0));
+//        } catch (ArithmeticException e) {
+//            System.out.println("second parameter must not be zero");
+//        }
     }
 }
