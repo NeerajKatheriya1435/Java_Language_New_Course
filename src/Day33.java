@@ -5,12 +5,12 @@ import java.util.LinkedList;
 public class Day33 {
     public static void main(String[] args) {
 
-        ArrayList<Integer> arrayList=new ArrayList<>(5);
-
-        arrayList.add(67);
-        arrayList.add(56);
-        arrayList.addFirst(90);
-        arrayList.add(1,78);
+//        ArrayList<Integer> arrayList=new ArrayList<>(5);
+//
+//        arrayList.add(67);
+//        arrayList.add(56);
+//        arrayList.addFirst(90);
+//        arrayList.add(1,78);
 //        System.out.println(arrayList.size());
 
 //        arrayList.add("Vandana");
@@ -38,18 +38,20 @@ public class Day33 {
 //
 //        System.out.println(linkedList.size());
 //        System.out.println(linkedList.toString());
-
-        ArrayDeque<String> arrayDeque=new ArrayDeque<>();
-
-        arrayDeque.add("Vandana");
-        arrayDeque.add("Khushi");
-        arrayDeque.addFirst("FisrtV");
-        arrayDeque.addLast("LastV");
-        arrayDeque.offerFirst("Neeraj");
-        arrayDeque.addFirst("Suman");
-
-//        System.out.println(arrayDeque.addFirst("Suman"));
-        System.out.println(arrayDeque.offerFirst("Suman"));
-        System.out.println(arrayDeque.toString());
+//        ArrayDeque<String> arrayDeque=new ArrayDeque<>();
+//
+//        arrayDeque.add("Vandana");
+//        arrayDeque.add("Khushi");
+//        arrayDeque.addFirst("FisrtV");
+//        arrayDeque.addLast("LastV");
+//        arrayDeque.offerFirst("Neeraj");
+//        arrayDeque.addFirst("Suman");
+//
+////        System.out.println(arrayDeque.addFirst("Suman"));
+//        System.out.println(arrayDeque.offerFirst("Suman"));
+//        System.out.println(arrayDeque.toString());
+        int[] arr=new int[6];
+//        arr[0]=90;
+        System.out.println(arr[1]);
     }
 }

@@ -7,13 +7,12 @@ class Main{
     }
 }
 
+
 // best practices
 
-
-
-// white spaces not alowed
+// white spaces not allowed
 //  45suman
-// sumn kumari
+// suman kumari
 
-// passcal convention --> SumanKumarGautam  
-// camel case convetion --> sumanKumarGautam
+// pascal convention --> SumanKumarGautam
+// camel case convention --> sumanKumarGautam
