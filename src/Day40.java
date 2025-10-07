@@ -25,6 +25,11 @@ public class Day40 {
         // largest between 3 numbers
         System.out.println("Enter the number you want sum");
         int num1=sc.nextInt();
+        int sum=0;
+        for (int i = 1; i <=num1 ; i++) {
+            sum=sum+i;
+        }
+        System.out.println("The sum is: "+sum);
 //        int num2=sc.nextInt();
 //        int num3=sc.nextInt();
 
@@ -48,11 +53,7 @@ public class Day40 {
 //        }else {
 //            System.out.println(num2+" is the greatestt number");
 //        }
-//        int sum=0;
-//        for (int i = 1; i <=num1 ; i++) {
-//            sum=sum+i;
-//        }
-//        System.out.println("The sum is: "+sum);
+
 
 //        for (int i = 2; i <num1 ; i++) {
 //            if(num1%i==0){
