@@ -32,7 +32,6 @@ public class Day40 {
         System.out.println("The sum is: "+sum);
 //        int num2=sc.nextInt();
 //        int num3=sc.nextInt();
-
 //        if(num1>num2){
 //            if(num1>num3){
 //                System.out.println(num1+" is largest number");
