@@ -1,21 +1,22 @@
+
 public class Delete1 {
     //Problem 1:  Write a program to sum 1 to n Numbers
 
     // 1st Method
-    public static int FirstMethod(int n){
-
-        int sum=0;
-        for (int i = 1; i <=n ; i++) {
-            sum+=i;
-        }
-        return sum;
-    }
-
-    // 2nd Method
-    public static void SecondMethodSum(int n){
-        int result=(n*(n+1))/2;
-        System.out.println(result);
-    }
+//    public static int FirstMethod(int n){
+//
+//        int sum=0;
+//        for (int i = 1; i <=n ; i++) {
+//            sum+=i;
+//        }
+//        return sum;
+//    }
+//
+//    // 2nd Method
+//    public static void SecondMethodSum(int n){
+//        int result=(n*(n+1))/2;
+//        System.out.println(result);
+//    }
 
     // Problem 2: A1 executes in 1 Second and A2 Executes in 2 Seconds (Find Best)
     // Exmaple of (2GB File at Friend's Home) --> Depends on Language, Processing, Logic
@@ -30,10 +31,22 @@ public class Delete1 {
 
     public static void main(String[] args) {
 
+        String str1="madam";
+        String reverse1="";
+        boolean b1=false;
 
+        for (int i = (str1.length()-1); i >=0 ; i--) {
+           reverse1+= str1.charAt(i);
+        }
+//        System.out.println(reverse1);
+//        System.out.println();
+        System.out.println(str1);
+        reverse1="madam";
 
+        System.out.println(reverse1);
 
-
-
+        if(str1.equals(reverse1)){
+            System.out.println("Palindrome");
+        }
     }
 }
